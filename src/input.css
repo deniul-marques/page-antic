@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .bg-hero{
+        background-repeat: no-repeat;
+        background-position: right;
+        @apply bg-[url('/public/dist/assets/img/bg-hero.png')];
+    }
+}
